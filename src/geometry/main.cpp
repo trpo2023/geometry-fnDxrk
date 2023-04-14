@@ -5,9 +5,9 @@
 #include <iterator>
 #include <math.h>
 
-#include "../libgeometry/headers/Circle.h"
-#include "../libgeometry/headers/Vector2.h"
-#include "../libgeometry/headers/LineStatus.h"
+#include <Circle.h>
+#include <Vector2.h>
+#include <LineStatus.h>
 
 using namespace std;
 

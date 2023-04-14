@@ -34,7 +34,7 @@ $(PATH_OBJ_LIB)%.o : $(PATH_LIB)%.cpp
 
 # main
 $(PATH_OBJ_MAIN)%.o : $(PATH_MAIN)%.cpp
-	$(CC) -c $< -o $@
+	$(CC) -I src/libgeometry/headers -c $< -o $@
 
 
 clear :
